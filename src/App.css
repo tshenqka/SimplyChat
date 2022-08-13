@@ -2,11 +2,6 @@ body {
   background-color: #282c34;
 }
 
-.lightMode {
-  background-color: lightgray;
-  color: black;
-}
-
 .App {
   text-align: center;
   max-width: 728px;
@@ -112,9 +107,6 @@ button:disabled {
   margin: 0 auto;
 }
 
-
-
-
 ul, li {
   text-align: left;
   list-style: none;
@@ -135,9 +127,6 @@ p {
   display: flex;
   align-items: center;
 }
-
-
-
 
 .sent {
   flex-direction: row-reverse;
