@@ -1,6 +1,5 @@
 import React, { useRef, useState } from 'react';
 import './App.css';
-import {Darkmode} from './Darkmode'
 
 import firebase from 'firebase/compat/app';
 import 'firebase/compat/firestore';
@@ -35,7 +34,6 @@ function App() {
       <header>
         <h1>SimplyChat - Made with React + Firebase</h1>
         <SignOut />
-        <Darkmode />
       </header>
 
       <section>
